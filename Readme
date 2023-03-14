@@ -1,0 +1,11 @@
+To start this project you have to make sure that you have react-native environment setup in your device. If not, follow this link 'https://reactnative.dev/docs/environment-setup#running-your-react-native-application'.
+
+After the setup, open the project.
+
+Open your terminal and install the dependencies by running either 'yarn' or 'npm install'.
+
+Since we are using flavor, you would need .env files for every flavor. So create them in root directory.
+
+Finally, its time to run the project. You can start the project by running 'yarn android:dev' or 'npm run android android:dev'. This command will run the project in the development phase.
+
+To make an apk, you can either run 'yarn assemble' or 'npm run assemble'. Or go to android folder and run commmand './gradlew assembleRelease'
